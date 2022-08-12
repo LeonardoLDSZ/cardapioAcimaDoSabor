@@ -30,8 +30,8 @@ p.feira {
     margin-bottom: 20px;
 }
 
-a {
-    
+a {    
+    color: rgb(248, 140, 230);
 }
 
 header span {
@@ -48,8 +48,8 @@ img.logo{
     /* padding: 3.7px; */
     width: 200px;
     height: 200px;
-    border: var(--primary-color) solid 4px;
-    margin: 0 auto;    
+    margin: 0 auto;   
+    border: var(--primary-color) solid 4px;    
 
 }
 
@@ -95,17 +95,19 @@ section h2{
     font-size: 18px;
 }
 
+
 img.bw-image{
     border-radius: 30px;
-    width: 70%;
+    width: 70%;    
     image-rendering: auto;    
+    float: right;
     
 }
 
 /* LIST */
 ul li {
     margin-bottom: 16px;
-    /* display: flex; */
+    display: flex;
 }
 
 li .details {
