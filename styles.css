@@ -20,6 +20,7 @@ h1, h2, h3, .price {
     font-family: 'Roboto Serif';
     text-transform: uppercase;
     color:#2D2C2A;
+    text-align: center;
 
 }
 
@@ -39,9 +40,6 @@ header span {
 
 }
 
-img {
-    width: 100%;
-}
 
 img.logo{
     /* border-radius: 50%; */
@@ -50,7 +48,7 @@ img.logo{
     height: 200px;
     margin: 0 auto;   
     border: var(--primary-color) solid 4px;    
-
+    
 }
 
 header {
@@ -63,7 +61,7 @@ header,
 section {
     max-width: 400px;
     margin: 0 auto;     
-
+    
 }
 
 header h1 {
@@ -79,11 +77,7 @@ header p {
 }
 
 /* SECTION */
-section {
 
-    margin-bottom: 24px;
-
-}
 
 section h2{
     background-color: rgb(245, 164, 231);
@@ -95,18 +89,36 @@ section h2{
     font-size: 18px;
 }
 
+.price {
+    text-align: right;
+    margin-left: 40px;
+}
 
 img.bw-image{
+
     border-radius: 30px;
     width: 70%;    
     image-rendering: auto;    
-    float: right;
+    margin-left: 230px;    
+    
+}
+
+.container{
+    display: flex;
+    
+}
+
+p.description{
+    margin-left:-400px;
+    padding:30px;
+    text-align:justify;
+    
     
 }
 
 /* LIST */
 ul li {
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     display: flex;
 }
 
