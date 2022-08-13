@@ -176,7 +176,7 @@ li .details {
     display: block;
     width: 80%;
     max-width: 300px;
-    text-align: center;
+    text-align: left;
     font-weight:bold;
     color: #ccc;
     padding: 10px 0;
@@ -199,8 +199,8 @@ li .details {
   /* The Close Button */
   .close {
     position: absolute;    
-    bottom:98px;
-    left: 800px;    
+    bottom:200px;
+    left: 450px;    
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
