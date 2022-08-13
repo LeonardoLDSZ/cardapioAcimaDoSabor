@@ -101,6 +101,7 @@ img.bw-image{
     max-width: 300px;   
     image-rendering: auto;    
     margin-left: 230px; 
+    border-radius: 30px;
     
 }
 
@@ -140,51 +141,60 @@ li .details {
 }
 
 #bwImage {
-    border-radius: 30px;
+    
     cursor:pointer;
     transition: 0.2s;
   }
   
-  #bwImage:hover {opacity: 0.2;}
+  /* #bwImage:hover {opacity: 0.2;} */
   
   /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+  /* .modal { */
+   /* Hidden by default */
+    /* display: none;  */
+    /* Stay in place */
+    /* position: fixed;  */
+    /* Sit on top */
+    /* z-index: 1;  */
+    /* Location of the box */
+    /* padding-top: 100px;  */
+    /* left: 0; */
+    /* top: 0; */
+    /* Full width */
+    /* width: 100%;  */
+    /* Full height */
+    /* height: 100%;  */
      /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
+
+    /* Fallback color */
+    /* background-color: rgb(0,0,0);  */
+    /* Black w/ opacity */
+    /* background-color: rgba(0,0,0,0.9);  */
+  /* } */
   
   /* Modal Content (Image) */
-  .modal-content {
+  /* .modal-content {
     margin: auto;
     display: block;
     width: 27%;
     max-width: 700px;
-  }
+  } */
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
+  /* #caption {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 300px;
-    text-align: left;
+    text-align: center;
     font-weight:bold;
     color: #ccc;
     padding: 10px 0;
     height: 150px;
-  }
+  } */
   
   /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
+  /* .modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
     border-radius: 30px;
@@ -194,10 +204,10 @@ li .details {
     from {transform:scale(0)}
     to {transform:scale(1)}
     
-  }
+  } */
   
   /* The Close Button */
-  .close {
+  /* .close {
     position: absolute;    
     bottom:200px;
     left: 450px;    
@@ -212,11 +222,12 @@ li .details {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-  }
+  } */
   
   /* 100% Image Width on Smaller Screens */
+/*   
   @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
     }
-  }
+  } */
