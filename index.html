@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+
+    
+
+
     <header>
         <p class="feira">
         <span>Feira Oportunidade</span>
@@ -45,7 +49,7 @@
           <div class="details">
             <h3>Kinder Bueno</h3>
             <div class="container">
-                <img class="bw-image" src="./assets/BW-Kinder Bueno.jpg" alt="image do bw de kinder bueno">
+                <img id="bwImage" class="bw-image" src="./assets/BW-Kinder Bueno.jpg" alt="Bubble Waffle de Kinder Bueno">
                 <p class="description">
                     Massa de baunilha, Nutella, recheio de brigadeiro tradicional e pedaços de Kinder Bueno
                 </p>
@@ -61,7 +65,7 @@
           <div class="details">
             <h3>Morango C/ Leite Ninho</h3>
             <div class="container">
-                <img class="bw-image" src="./assets/BW-Morango.jpg" alt="image do bw de morango">
+                <img id="bwImage" class="bw-image" src="./assets/BW-Morango.jpg" alt="Bubble Waffle de Morango">
             <p class="description">
                 Massa de baunilha, Nutella, recheio de leite ninho, morangos picados e chantilly
             </p>
@@ -78,7 +82,7 @@
             <div class="details">
               <h3>Kitkat</h3>
               <div class="container">
-              <img class="bw-image" src="./assets/BW-Kinder Bueno.jpg" alt="image do bw de kitkat">
+              <img id="bwImage" class="bw-image" src="./assets/BW-Kitkat.jpg" alt="Bubble Waffle de Kitkat">
               <p class="description">
                 Massa de chocolate, Nutella, recheio de brigadeiro tradicional com pedaços de kitkat
               </p>
@@ -95,7 +99,7 @@
             <div class="details">
               <h3>Banoffe</h3>
               <div class="container">
-              <img class="bw-image" src="./assets/BW-Banoffe.jpg" alt="image do bw de banoffe">
+              <img id="bwImage" class="bw-image" src="./assets/BW-Banoffe.jpg" alt="Bubble Waffle de Banoffe">
               <p class="description">
                 Massa de baunilha com bananas picadas, com recheio de doce de leite e chantilly
               </p>
@@ -111,7 +115,7 @@
             <div class="details">
               <h3>Oreo</h3>
               <div class="container">
-              <img class="bw-image" src="./assets/BW-Oreo.jpg" alt="image do bw de oreo">
+              <img id="bwImage" class="bw-image" src="./assets/BW-Oreo.jpg" alt="Bubble Waffle de Oreo">
               <p class="description">
                 Massa de baunilha com bolachas, recheio de brigadeiro tradicional com bolachas picadas
               </p>
@@ -125,5 +129,32 @@
       </ul>
       
     </section>   
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+}
+      <script>
+        var modal = document.getElementById("myModal");
+        var img = document.getElementById("bwImage");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() { 
+        modal.style.display = "none";
+        }
+
+        
+      </script>
+
   </body>
 </html>
