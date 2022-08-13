@@ -1,3 +1,4 @@
+
 /* GLOBAL */
 
 * {
@@ -17,6 +18,7 @@ ul {
 }
 
 /* FONTS */
+
 h1, h2, h3, .price {
     font-family: 'Roboto Serif';
     text-transform: uppercase;
@@ -47,10 +49,8 @@ header span {
 
 img.logo {
 
-    /* border-radius: 50%; */
-    /* padding: 3.7px; */
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;   
     border: var(--primary-color) solid 4px;    
     
@@ -58,7 +58,6 @@ img.logo {
 
 header {
 
-    /* padding: 0px 0; */
     text-align:center;
 }
 
@@ -129,6 +128,7 @@ p.description {
 }
 
 /* LIST */
+
 ul li {
 
     margin-bottom: 30px;
@@ -151,7 +151,6 @@ li .details {
     color:rgba(0,0,0,0.6);
     font-size: 14px;
     line-height: 21px;
-    /* text-indent: 10px; */
 
 }
 
