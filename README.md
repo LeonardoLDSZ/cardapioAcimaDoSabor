@@ -3,7 +3,7 @@
 
 Simple online menu made for a confectionery company for a specific day of a fair
 
-Such a menu was released via netlify [ https://cardapio-acimadosabor-14-08-2022.netlify.app/ ].
+Such a menu was released via netlify [ https://cardapio-acimadosabor-18-08-2022.netlify.app/ ].
 
 The menu contains information about the fair, such as name, location, date and time, as well as the company's instagram.
 
