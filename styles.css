@@ -35,6 +35,17 @@ p.feira {
     margin-bottom: 20px;
 }
 
+.position{
+    text-decoration:underline;
+    color: #2D2C2A;
+    background-color: #f5a4e7;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 30px;
+    
+
+}
+
 a {    
 
     color: #f88ce6;
@@ -88,7 +99,7 @@ header p {
 
 section h2 {
 
-    background-color: rgb(245, 164, 231);
+    background-color: #f5a4e7;
     color:black;
     padding: 8px 16px;
     text-align: center;
