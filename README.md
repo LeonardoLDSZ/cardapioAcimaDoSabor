@@ -13,7 +13,7 @@ A QR Code was also created for people to be able to access the menu while they a
 
 
 
-![CARDÁPIO-ONLINE](https://user-images.githubusercontent.com/57837644/189248232-d679d19c-c195-44b9-804e-0cb573daab28.png)
+![CARDÁPIO-ONLINE](https://user-images.githubusercontent.com/57837644/189248232-d679d19c-c195-44b9-804e-0cb573daab28.png =250x250)
 
 Cardapio online simples feito para empresa de confeitaria para dia específico de  uma feira
 
