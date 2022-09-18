@@ -15,7 +15,7 @@ A QR Code was also created for people to be able to access the menu while they a
 ![preview](./.github/preview.png)
 
 
-<img src="https://user-images.githubusercontent.com/57837644/189248232-d679d19c-c195-44b9-804e-0cb573daab28.png" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/57837644/189248232-d679d19c-c195-44b9-804e-0cb573daab28.png" width=25% height=25%>
 
 
 
